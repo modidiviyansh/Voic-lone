@@ -6,8 +6,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="./style.css">
 <link rel="stylesheet" href="upload.css">
-
-
+<link rel="stylesheet" href="text-area.css">
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -85,7 +84,7 @@ Uplaod Icon
         
 -->
         <div class="wrapper1">
-    <header>File Uploader JavaScript</header>
+
     <form action="#">
       <input class="file-input" type="file" name="file" hidden>
       <i class="fas fa-cloud-upload-alt"></i>
@@ -93,26 +92,22 @@ Uplaod Icon
     </form>
     <section class="progress-area"></section>
     <section class="uploaded-area"></section>
+    <button class="content-button status-button">Process files</button>
   </div>
-        
-        <div class="menu"></div>
        </div>
       </div>
        <div class="app-card">
        <span>
-        <svg viewBox="0 0 52 52" style="border: 1px solid #c1316d">
-         <g xmlns="http://www.w3.org/2000/svg">
-          <path d="M40.824 52H11.176C5.003 52 0 46.997 0 40.824V11.176C0 5.003 5.003 0 11.176 0h29.649C46.997 0 52 5.003 52 11.176v29.649C52 46.997 46.997 52 40.824 52z" fill="#2f0015" data-original="#6f2b41" />
-          <path d="M18.08 39H15.2V13.72l-2.64-.08V11h5.52v28zM27.68 19.4c1.173-.507 2.593-.761 4.26-.761s3.073.374 4.22 1.12V11h2.88v28c-2.293.32-4.414.48-6.36.48-1.947 0-3.707-.4-5.28-1.2-2.08-1.066-3.12-2.92-3.12-5.561v-7.56c0-2.799 1.133-4.719 3.4-5.759zm8.48 3.12c-1.387-.746-2.907-1.119-4.56-1.119-1.574 0-2.714.406-3.42 1.22-.707.813-1.06 1.847-1.06 3.1v7.12c0 1.227.44 2.188 1.32 2.88.96.719 2.146 1.079 3.56 1.079 1.413 0 2.8-.106 4.16-.319V22.52z" fill="#e1c1cf" data-original="#ff70bd" />
-         </g>
-        </svg>
-        InDesign
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-blockquote-right" viewBox="0 0 16 16">
+  <path d="M2.5 3a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1h-11zm0 3a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6zm0 3a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6zm0 3a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1h-11zm10.113-5.373a6.59 6.59 0 0 0-.445-.275l.21-.352c.122.074.272.17.452.287.18.117.35.26.51.428.156.164.289.351.398.562.11.207.164.438.164.692 0 .36-.072.65-.216.873-.145.219-.385.328-.721.328-.215 0-.383-.07-.504-.211a.697.697 0 0 1-.188-.463c0-.23.07-.404.211-.521.137-.121.326-.182.569-.182h.281a1.686 1.686 0 0 0-.123-.498 1.379 1.379 0 0 0-.252-.37 1.94 1.94 0 0 0-.346-.298zm-2.168 0A6.59 6.59 0 0 0 10 6.352L10.21 6c.122.074.272.17.452.287.18.117.35.26.51.428.156.164.289.351.398.562.11.207.164.438.164.692 0 .36-.072.65-.216.873-.145.219-.385.328-.721.328-.215 0-.383-.07-.504-.211a.697.697 0 0 1-.188-.463c0-.23.07-.404.211-.521.137-.121.327-.182.569-.182h.281a1.749 1.749 0 0 0-.117-.492 1.402 1.402 0 0 0-.258-.375 1.94 1.94 0 0 0-.346-.3z"/>
+</svg>
+        Enter Text To Process Clone
        </span>
-       <div class="app-card__subtext">Design and publish great projects & mockups</div>
+       <div class="app-card__subtext">Here you can enter text process to clone the voice you uploaded into the following text</div>
        <div class="app-card-buttons">
-        <button class="content-button status-button">Update</button>
-        <div class="menu"></div>
+       <p><strong>Solution with span:</strong> <span class="textarea" role="textbox" contenteditable></span></p>
        </div>
+       <button class="content-button status-button">Process Files</button>
       </div>
       <div class="app-card">
        <span>
@@ -139,6 +134,6 @@ Uplaod Icon
 </div>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
-
+<script src="text-area.js"></script>
 </body>
 </html>
