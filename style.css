@@ -809,19 +809,23 @@ align-self: center;
 }
 
 .apps-card {
+
   display: flex;
     
   align-items: center;
     justify-content: space-around;
     
   flex-wrap: wrap;
+  height: calc(100% + 20px)
   width: calc(100% + 20px);
+background-color: transparent;
 }
 
 .app-card {
   display: flex;
   flex-direction: column;
   width: calc(33.3% - 20px);
+  height: calc(237% + 50px);
   font-size: 16px;
   background-color: var(--content-bg);
   border-radius: 14px;
