@@ -5,6 +5,8 @@
   <title>Voic-lone : A Voice Cloning Tool For Capstone Project</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="upload.css">
+
 
 </head>
 <body>
@@ -78,7 +80,21 @@ Your browser does not support the video tag.
        </span>
        <div class="app-card__subtext">Your single audio sample can be cloned with this tool . Hope You Enjoy it</div>
        <div class="app-card-buttons">
-        <button class="content-button status-button">Update</button>
+<!--
+Uplaod Icon
+        
+-->
+        <div class="wrapper1">
+    <header>File Uploader JavaScript</header>
+    <form action="#">
+      <input class="file-input" type="file" name="file" hidden>
+      <i class="fas fa-cloud-upload-alt"></i>
+      <p>Browse File to Upload</p>
+    </form>
+    <section class="progress-area"></section>
+    <section class="uploaded-area"></section>
+  </div>
+        
         <div class="menu"></div>
        </div>
       </div>
