@@ -21,7 +21,7 @@
 
 .textarea {
   display: block;
-  width: 80%;
+  width: 95%;
   overflow: hidden;
   resize: both;
   min-height: 40px;
@@ -29,7 +29,7 @@
 }
 
 .textarea[contenteditable]:empty::before {
-  content: "Placeholder still possible";
+  content: "Enter Text to be cloned \00a0 \00a0 \00a0 \00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
   color: gray;
 }
 
