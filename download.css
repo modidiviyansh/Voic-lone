@@ -11,10 +11,10 @@
 	cursor: pointer;
 	display: block;
 	font-size: 20px;
-	margin: 3em auto 0 auto;
+	margin: 0 0 0 auto;
 	position: relative;
-	width: 9em;
-	height: 9em;
+	width: 15em;
+	height: 15em;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
